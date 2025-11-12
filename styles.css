@@ -1,1 +1,67 @@
-/*  your css code here. If applicable */
+/* Step 1: Body Setup */
+body {
+  font-family: 'Times New Roman', serif;
+  background-color: #f2f2f2;  /* Light gray background for page */
+  display: flex;
+  justify-content: center;    /* Center card horizontally */
+  align-items: center;        /* Center card vertically */
+  height: 100vh;
+  margin: 0;
+}
+
+/* Step 2: Main Card Container */
+.card {
+  background-color: #f5f5f5;   /* Card background */
+  width: 300px;                /* Fixed width for balance */
+  padding: 20px;               /* Inner spacing */
+  text-align: center;          /* Center content */
+  border-radius: 10px;         /* Smooth edges */
+  box-shadow: 0 4px 12px rgba(0, 0, 0, 0.2); /* Gives a shadow effect */
+}
+
+/* Step 3: Image Styling */
+.card img {
+  width: 100%;      /* Image fits card width */
+  border-radius: 6px;
+  margin-bottom: 15px;
+}
+
+/* Step 4: Title Styling */
+.card h1 {
+  font-size: 28px;
+  margin: 10px 0;
+  color: #000;
+}
+
+/* Step 5: Price Styling */
+.price {
+  font-size: 18px;
+  margin: 8px 0;
+  color: #222;
+}
+
+/* Step 6: Description Styling */
+.desc {
+  font-size: 16px;
+  margin: 12px 0 20px;
+  color: #333;
+  line-height: 1.5;
+}
+
+/* Step 7: Button Styling */
+.buy-btn {
+  padding: 10px 25px;          /* Adds space inside the button */
+  background-color: #f76c6c;   /* Coral red background */
+  color: white;                /* White text */
+  border: none;                /* No default border */
+  border-radius: 10px;         /* Rounded button edges */
+  font-size: 16px;
+  cursor: pointer;
+  transition: 0.3s ease;       /* Smooth hover animation */
+}
+
+/* Step 8: Hover Effect */
+.buy-btn:hover {
+  background-color: #ff7f73;   /* Slightly lighter red on hover */
+  transform: scale(1.05);      /* Button enlarges slightly */
+}
